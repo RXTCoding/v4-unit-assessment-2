@@ -12,3 +12,153 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    margin: 0
+}
+
+#mainHeader{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+    #leftHeader{
+        height: 10vh;
+        width: 50%;
+        background-color: transparent;
+        margin-left: 40px;
+        margin-top: 35px;
+        font-size: xx-large;
+    }
+        #leftHeaderText{
+            color: rgb(42, 171, 226);
+            font-family: 'Nunito', sans-serif;
+        }
+#rightNav{
+    height: 10vh;
+    width: 50%;
+    background-color:transparent;
+    margin-left: 600px;
+    padding-right: 5px;
+    }
+    #rNav{
+        display: inline-block;
+        justify-content: space-between;
+        text-decoration: none;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-family: 'Nunito', sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    h1{
+        margin: 30px;
+        margin-left: 40px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+#textBodyBox{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    margin: 40px;
+}
+    #skChSec1{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 50vw;
+    }
+    p{
+        font-family: "nunito", sans-serif;
+        width: 50vw;
+    }
+        #textBody{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            margin-right: 12px;
+        }
+#rightSect{
+    display: flex;
+    flex-direction: column;
+}
+    #profInfo2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+        #picBox{
+            height: 200px;
+            width: 200px;
+            background-color: transparent;
+            box-shadow:  0px 0px 12px 0px rgba(102,75,75.3);
+            padding: 10px;
+            margin-top: 40px;
+            border-radius: 4%;
+        }
+            /* #profilePicCirc{
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                background-color: tomato;
+                margin-left: 30px;
+            } */
+            h2{
+                margin-left: 45px;
+            }
+        #popArtRect{
+            background-color: transparent;
+            margin-top: 40px;
+            box-shadow: 0px 0px 12px 0px rgba(102,75,75.3);
+            height: 400px;
+            width: 200px;
+            margin-left: 200px;
+            border-radius: 4%;
+        }
+        img{
+            height: 150px;
+            width: 150px;
+        }
+            #popArtHeader{
+                margin-right: 20px;
+            }
+
+#imgGallery{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+    h2{
+        font-family: 'Nunito', sans-serif;
+    }
+    #imageEdits{
+        display: flex;
+        justify-content: space-evenly;
+    }
+        .placeholderImages{
+            height: 200px;
+            width: 400px;
+            margin-top: 30px;
+        }
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(42, 171, 226);
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+}
